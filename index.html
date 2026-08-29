@@ -6,12 +6,10 @@
   
   <title>I LOVE YOU NINA VERY MUCH 💖</title>
 
-  <!-- Favicon / Bookmark & Home Screen Icons -->
   <link rel="icon" type="image/png" href="nina%20web.png">
   <link rel="shortcut icon" type="image/png" href="nina%20web.png">
   <link rel="apple-touch-icon" href="nina%20web.png">
 
-  <!-- Google Fonts: Inter, Plus Jakarta Sans, JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
@@ -211,7 +209,7 @@
       height: 104px;
       border-radius: 50%;
       object-fit: cover;
-      object-position: 75% 25%;
+      object-position: center center;
       display: block;
       border: 3px solid #f472b6;
       box-shadow: 0 0 25px rgba(244, 114, 182, 0.45);
@@ -416,6 +414,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      object-position: center center;
       transition: transform 0.35s ease, filter 0.35s ease;
     }
 
@@ -423,11 +422,6 @@
       transform: scale(1.06);
       filter: saturate(1.15);
     }
-
-    /* Crop Framing */
-    .pos-couple { object-position: 25% 30%; }
-    .pos-portrait { object-position: 80% 30%; }
-    .pos-center { object-position: center 30%; }
 
     .media-info {
       padding: 20px;
@@ -569,7 +563,6 @@
 </head>
 <body>
 
-  <!-- Floating Hearts Background Layer -->
   <div class="heart-bg">
     <div class="floating-heart heart-1">💖</div>
     <div class="floating-heart heart-2">💕</div>
@@ -581,13 +574,11 @@
 
   <div class="container">
 
-    <!-- Math & Romance Banner -->
     <div class="math-strip">
       <span>💘 r = 1 - sin(θ) &bull; lim(t &rarr; ∞) LOVE = ∞ 💘</span>
       <span>[ NINA &amp; ADRIAN &bull; FOREVER ]</span>
     </div>
     
-    <!-- Hero Header -->
     <header>
       <div class="badge-bar">
         <span class="pill">💖 ALWAYS &amp; FOREVER</span>
@@ -633,7 +624,6 @@
       </div>
     </header>
 
-    <!-- Love Letter Section -->
     <section>
       <div class="section-title">A Love Letter for Nina</div>
       <p class="lead-text">
@@ -644,15 +634,13 @@
       </p>
     </section>
 
-    <!-- Photo Cards -->
     <section>
       <div class="section-title">Favorite Memories &bull; Nina</div>
       <div class="grid">
 
-        <!-- Card 1 (Focus on Us Together) -->
         <a class="media-card" href="https://www.instagram.com/nina_lnguyen/?hl=en" target="_blank" rel="noopener">
           <div class="thumbnail-wrapper">
-            <img src="nina%20web.png" alt="Nina and Adrian" class="pos-couple" loading="lazy" />
+            <img src="nina%20web%201.png" alt="Nina memory 1" loading="lazy" />
           </div>
           <div class="media-info">
             <div>
@@ -663,10 +651,9 @@
           </div>
         </a>
 
-        <!-- Card 2 (Focus on Nina's Portrait) -->
         <a class="media-card" href="https://www.instagram.com/nina_lnguyen/?hl=en" target="_blank" rel="noopener">
           <div class="thumbnail-wrapper">
-            <img src="nina%20web.png" alt="Nina Portrait" class="pos-portrait" loading="lazy" />
+            <img src="nina%20web%202.png" alt="Nina memory 2" loading="lazy" />
           </div>
           <div class="media-info">
             <div>
@@ -680,15 +667,13 @@
       </div>
     </section>
 
-    <!-- More Photo Cards -->
     <section>
       <div class="section-title">Endless Appreciation</div>
       <div class="grid">
 
-        <!-- Card 3 -->
         <a class="media-card" href="https://www.instagram.com/nina_lnguyen/?hl=en" target="_blank" rel="noopener">
           <div class="thumbnail-wrapper">
-            <img src="nina%20web.png" alt="Nina" class="pos-center" loading="lazy" />
+            <img src="nina%20web%203.png" alt="Nina memory 3" loading="lazy" />
           </div>
           <div class="media-info">
             <div>
@@ -699,10 +684,9 @@
           </div>
         </a>
 
-        <!-- Card 4 -->
         <a class="media-card" href="https://www.instagram.com/nina_lnguyen/?hl=en" target="_blank" rel="noopener">
           <div class="thumbnail-wrapper">
-            <img src="nina%20web.png" alt="Nina" class="pos-portrait" loading="lazy" />
+            <img src="nina%20web%204.png" alt="Nina memory 4" loading="lazy" />
           </div>
           <div class="media-info">
             <div>
@@ -716,7 +700,26 @@
       </div>
     </section>
 
-    <!-- 4 Love Fact Cards -->
+    <section>
+      <div class="section-title">Special Highlight</div>
+      <div class="grid" style="grid-template-columns: 1fr;">
+
+        <a class="media-card" href="https://www.instagram.com/nina_lnguyen/?hl=en" target="_blank" rel="noopener">
+          <div class="thumbnail-wrapper" style="aspect-ratio: 21 / 9;">
+            <img src="nina%20web%205.png" alt="Nina memory 5" loading="lazy" />
+          </div>
+          <div class="media-info">
+            <div>
+              <div class="media-tag">Unforgettable Moments &bull; Forever Yours 💍</div>
+              <h3>The Love of My Life</h3>
+            </div>
+            <p>Every single day with you is a dream come true. I love you to infinity and beyond.</p>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
     <section>
       <div class="section-title">The Facts of Our Love</div>
       <div class="grid">
@@ -756,7 +759,6 @@
       </div>
     </section>
 
-    <!-- Love Attributes / Tags -->
     <section>
       <div class="section-title">Everything Nina Is</div>
       <div class="tags-container">
@@ -770,7 +772,6 @@
       </div>
     </section>
 
-    <!-- Footer -->
     <footer>
       <span>Dedicated with all my heart to Nina Nguyen &mdash; I Love You Forever 💕</span>
       <span>Hosted with Endless Love &bull; GitHub Pages</span>
